@@ -5,3 +5,5 @@ src/_data/env.js
 /src/_data/env.js
 env.js
 .env
+# Local Netlify folder
+.netlify
