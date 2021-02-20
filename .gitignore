@@ -1,2 +1,7 @@
 node_modules
+
+_site
+src/_data/env.js
+/src/_data/env.js
+env.js
 .env

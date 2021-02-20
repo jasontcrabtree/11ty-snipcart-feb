@@ -8,3 +8,22 @@ html {
 body > * + * {
   margin-top: 3rem;
 }
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+
+  margin-right: 50%;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}

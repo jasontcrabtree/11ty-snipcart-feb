@@ -104,13 +104,32 @@ body > * + * {
   margin-top: 3rem;
 }
 
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+
+  margin-right: 50%;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
 html {
-  color: rgb(255, 217, 236);
-  background-color: #010101;
+  background-color: rgb(237, 252, 248);
+  color: #010101;
 }
 
 a:any-link {
-  color: hotpink;
+  color: rgb(182, 78, 8);
   font-weight: bold;
 }
 
